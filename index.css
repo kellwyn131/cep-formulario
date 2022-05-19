@@ -1,0 +1,170 @@
+html,body {
+    margin: 0px;
+    padding: 0px;
+}
+.Fundo {
+    position: absolute;left: 0px; top: 0px;
+    width: 100vw;
+    height: 100vh;
+    min-width: 600px;
+}
+.CelularDiv {
+    position: relative;top: 15vh;
+    margin: 0 auto;
+    width: 20vw;
+    height: 67vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Celular {
+    position: relative;
+    width: 300px;
+    height: 490px;
+    min-width: 300px;
+    z-index: 1;
+}
+.InputCEP {
+    position: fixed; top: 30vh;
+    text-align: center;
+    width: 15%;
+    height: 3.5%;
+    background: #ffffff;
+    border: 0px;
+    outline: 0px;
+    min-width: 180px;
+    max-width: 180px;
+    font-family: 'Ovo';
+    z-index: 2;
+}
+.InputRua {
+    position: fixed; top: 38vh;
+    text-align: center;
+    width: 15%;
+    height: 5%;
+    background: #ffffff;
+    border: 0px;
+    outline: 0px;
+    min-width: 180px;
+    font-family: 'Ovo';
+    font-size: 10px;
+    word-wrap: normal;
+    z-index: 2;
+}
+.InputBairro {
+    position: fixed; top: 47vh;
+    text-align: center;
+    width: 15%;
+    height: 3.5%;
+    background: #ffffff;
+    border: 0px;
+    outline: 0px;
+    min-width: 180px;
+    font-family: 'Ovo';
+    z-index: 2;
+}
+.InputCidade {
+    position: fixed; top: 54vh; left: 42.4vw;
+    text-align: center;
+    width: 11%;
+    height: 3.5%;
+    background: #ffffff;
+    border: 0px;
+    outline: 0px;
+    min-width: 100px;
+    font-family: 'Ovo';
+    z-index: 2;
+}
+.InputUF {
+    position: fixed; top: 54vh; left: 54.7vw;
+    text-align: center;
+    width: 2.5%;
+    height: 3.5%;
+    background: #ffffff;
+    border: 0px;
+    outline: 0px;
+    min-width: 10px;
+    font-family: 'Ovo';
+    z-index: 2;
+}
+.InputIBGE {
+    position: fixed; top: 61vh; left: 42.4vw;
+    text-align: center;
+    width: 11%;
+    height: 3.5%;
+    background: #ffffff;
+    border: 0px;
+    outline: 0px;
+    min-width: 100px;
+    font-family: 'Ovo';
+    z-index: 2;
+}
+.InputDDD {
+    position: fixed; top: 61vh; left: 54.7vw;
+    text-align: center;
+    width: 2.5%;
+    height: 3.5%;
+    background: #ffffff;
+    border: 0px;
+    outline: 0px;
+    min-width: 10px;
+    font-family: 'Ovo';
+    z-index: 2;
+}
+.Cep {
+    position: fixed; top: 26vh;
+    font-family: 'Ovo';
+    font-size: 15px;
+    z-index: 2;
+}
+.Rua {
+    position: fixed; top: 34vh;
+    font-family: 'Ovo';
+    font-size: 15px;
+    z-index: 2;
+}
+.Bairro {
+    position: fixed; top: 43vh;
+    font-family: 'Ovo';
+    font-size: 15px;
+    z-index: 2;
+}
+.Cidade {
+    position: fixed; top: 50vh; left: 46.2vw;
+    font-family: 'Ovo';
+    font-size: 15px;
+    z-index: 2;
+}
+.UF {
+    position: fixed; top: 50vh; left: 55.4vw;
+    font-family: 'Ovo';
+    font-size: 15px;
+    z-index: 2;
+}
+.IBGE {
+    position: fixed; top: 57vh; left: 46.8vw;
+    font-family: 'Ovo';
+    font-size: 15px;
+    z-index: 2;
+}
+.DDD {
+    position: fixed; top: 57vh; left: 54.8vw;
+    font-family: 'Ovo';
+    font-size: 15px;
+    z-index: 2;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.sucess{
+    border: 2px solid #00ff26;
+}
+.error{
+    border: 2px solid #ff0000;
+}
+.invisivel {
+    display: none;
+}
